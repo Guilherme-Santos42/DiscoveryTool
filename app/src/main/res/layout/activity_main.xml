@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/subnetEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a sub-rede (ex: 192.168.1.)"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/startPingSweepButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Ping Sweep"/>
+
+    <Button
+        android:id="@+id/startPortScanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Scanner de Portas"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados serão exibidos aqui"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+</LinearLayout>
